@@ -1,0 +1,11 @@
+services:
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./src:/var/www/html/src
+      - ./tests:/var/www/html/tests
+      - ./results:/var/www/html/results
+    working_dir: /var/www/html
+    command: php tests/test_operations.php

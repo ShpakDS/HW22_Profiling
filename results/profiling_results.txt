@@ -1,0 +1,4 @@
+Insert Time: 0.28744411468506s
+Search Time: 0.028946161270142s
+Delete Time: 0.090958833694458s
+Memory Usage: 8384064 bytes
